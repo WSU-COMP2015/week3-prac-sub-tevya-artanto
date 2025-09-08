@@ -11,6 +11,7 @@ public class dataStreams2 {
 
     System.out.println("Please enter a whole number");
     number1 = kb.nextByte();
+    kb.nextLine();
     System.out.println("Please enter a message");
     message = kb.nextLine();
     System.out.println("Please enter a whole number");

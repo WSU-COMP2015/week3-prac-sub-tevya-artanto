@@ -15,6 +15,7 @@ public class dataStreams1 {
     number2 = kb.nextByte();
     System.out.println("Please enter a fractional number");
     number3 = kb.nextFloat();
+    kb.nextLine();
     System.out.println("Please enter a message");
     message = kb.nextLine();
 
